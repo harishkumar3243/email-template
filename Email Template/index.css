@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.MainContainer {
+    height: auto;
+    width: 700px;
+}
+
+.email{
+    background-color: white;
+    color:black;
+    height: 40px;
+    width: auto;
+    text-align: right;
+}
+
+.email p{
+    font-size: medium;
+}
+ .email a{
+    text-decoration: none;
+ }
+.Navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    height: 5rem;
+    width: auto;
+    padding: 0 20px;
+    background-color: rgb(32, 176, 233);
+}
+
+.Heading {
+    color: white;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+ul {
+    list-style: none;
+    color: white;
+    margin: 0; 
+    padding: 0; 
+}
+
+li {
+    margin-right: 10px; 
+    display: inline;
+    font-size: large;
+}
+
+.ImageBox{
+    max-width:700px;
+    height: auto;
+}
+
+.ImageBox img {
+    max-width: 700px;
+    height: auto;
+    margin-bottom: -1rem;
+}
+
+/* Section One */
+.ContentSectionOne{
+padding: 10px 10px 20px 20px;
+    background-color:aquamarine;
+
+}
+
+p{
+    font-size: larger;
+}
+button{
+    background-color: rgb(36, 219, 219);
+    color: white;
+border-radius: 5px;
+height: 30px;
+border-color: aqua;
+}
+
+/* Second Section */
+
+.ContentSectionSecond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+padding: 40px;
+background-color: rgb(127, 140, 255);
+
+}
+
+.ContentSectionSecond h3{
+    margin-bottom: -10px;
+}
+
+.ContentSectionSecond p{
+    margin-bottom: 20px;
+}
+
+/* Third Section */
+.ContentSectionThird{
+    height: 20rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: aquamarine;
+}
+
+.ImageComponentOne{
+    max-width: 100%;
+    height:auto;   
+}
+
+.ImageComponentOne img{
+    max-width: 130%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+/* Fourth Section */
+.ContentSectionFourth{
+    height: 20rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color: rgb(127, 140, 255);
+}
+
+ 
+.ImageComponentTwo{
+    max-width: 100%;
+    height: auto;  
+    padding-left: 5rem;
+}
+
+.ImageComponentTwo img{
+    max-width: 160%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+/* Fifth Section */
+.FifthSection{
+    /* background-color:aquamarine; */
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 20px ;
+    background-color: aquamarine;
+}
+
+
+/* Sixth Section */
+.SixthSection{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    background-color: rgb(127, 140, 255);
+}
+
+
+/* Last Section */
+.LastContentSection{
+    padding: 10px 10px 20px 20px;
+    background-color: aquamarine;
+    height: fit-content;
+}
+.Footer{
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.Footer p{
+    font-size: medium;
+}
+.Footer a{
+    text-decoration: none;
+}
+
